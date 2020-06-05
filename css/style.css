@@ -83,7 +83,7 @@ body {
   font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
   line-height: 1.8;
 
-  max-width: 80ch;
+  max-width: 88ch;
   min-height: 100vh;
   overflow-x: hidden;
   margin: 0 auto;
@@ -96,6 +96,8 @@ body {
   background-color: hsl(210, 20%, 98%);
 
   text-rendering: optimizeLegibility;
+  padding: 2% 8% 4% 8%;
+  border: 1px solid LightGrey;
 }
 
 /* Justify and hyphenate all paragraphs */
