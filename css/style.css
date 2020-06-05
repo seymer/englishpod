@@ -111,7 +111,17 @@ a:not([class]) {
 }
 
 /* Make links red */
-a,
+a{
+  text-decoration: none;
+  cursor: crosshair;
+  color: black;
+}
+
+a:hover {
+  background-color: LightGrey;
+  border-bottom: 1px dashed Red;
+}
+
 a:visited {
   color: #a00;
 }
@@ -330,6 +340,13 @@ h1 {
   font-size: 2.5rem;
   line-height: 3.25rem;
   margin-bottom: 1.625rem;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+  margin-bottom: 40px;
+  padding: 5px;
+  border-bottom: 2px LightGrey solid;
+  width: 90%;
+  line-height: 150%;
+  color: DarkGreen;
 }
 
 h2 {
