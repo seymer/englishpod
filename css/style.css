@@ -358,6 +358,11 @@ h2 {
   font-size: 1.7rem;
   line-height: 2rem;
   margin-top: 3rem;
+  padding: 5px;
+  border-bottom: 2px LightGrey solid;
+  width: 100%;
+  line-height: 150%;
+  color: DarkGreen;
 }
 
 h3 {
