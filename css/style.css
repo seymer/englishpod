@@ -357,11 +357,10 @@ h1 {
 h2 {
   font-size: 1.7rem;
   line-height: 2rem;
-  margin-top: 3rem;
   padding: 5px;
   border-bottom: 2px LightGrey solid;
   width: 100%;
-  line-height: 150%;
+  line-height: 120%;
   color: DarkGreen;
 }
 
@@ -413,5 +412,5 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 0.8rem;
+  /* margin-bottom: 0.8rem; */
 }
