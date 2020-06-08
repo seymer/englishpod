@@ -198,7 +198,7 @@ audio {
 th,
 td {
   text-align: left;
-  padding: 4px;
+  padding: 8px;
 }
 td {
   border-bottom: 1px solid hsl(0, 0%, 85%);
@@ -347,7 +347,7 @@ h1 {
   line-height: 3.25rem;
   margin-bottom: 0.625rem;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-  padding: 5px;
+  padding: 8px;
   border-bottom: 2px LightGrey solid;
   width: 100%;
   line-height: 150%;
@@ -357,7 +357,7 @@ h1 {
 h2 {
   font-size: 1.7rem;
   line-height: 2rem;
-  padding: 5px;
+  padding: 8px;
   border-bottom: 2px LightGrey solid;
   width: 100%;
   line-height: 120%;
