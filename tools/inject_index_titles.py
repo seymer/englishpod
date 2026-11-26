@@ -15,9 +15,10 @@ INDEX = ROOT / "index.html"
 ZH_SOURCE = Path.home() / "Developer" / "englishpod_all" / "webapp" / "zh.js"
 ITEM_RE = re.compile(r'(<li><a href="html/englishpod_\d{4}\.html">[^<]*</a>)(</li>)')
 CSS = (
-    '<style id="englishpod-index-zh">.zh-title{margin-left:.5em;color:#888;'
-    'font-size:.85em;opacity:0;transition:opacity .15s}'
-    'li:hover .zh-title,li:focus-within .zh-title{opacity:1}</style>\n    '
+    '<style id="englishpod-index-zh">#content li{white-space:nowrap}'
+    '.zh-title{display:none;margin-left:.5em;color:#888;font-size:.85em;'
+    'white-space:nowrap}'
+    'li:hover .zh-title,li:focus-within .zh-title{display:inline}</style>\n    '
 )
 
 
