@@ -21,11 +21,11 @@
     "body{position:relative}" +
     ".zh-toggle-btn{position:absolute;top:8px;right:8px;display:inline-flex;" +
     "align-items:center;justify-content:center;width:24px;height:24px;padding:0;" +
-    "border:1px solid #8b2020;border-radius:50%;background:#fff;color:#8b2020;" +
+    "border:1px solid #990000;border-radius:50%;background:#fff;color:#990000;" +
     "font-family:inherit;font-size:14px;line-height:1;cursor:pointer;opacity:.85}" +
     ".zh-toggle-btn:hover{opacity:1}" +
     ".zh-glyph{display:block}" +
-    ".zh-toggle-btn.blurred{background:#8b2020;color:#fff}" +
+    ".zh-toggle-btn.blurred{background:#990000;color:#fff}" +
     ".zh-toggle-btn.blurred .zh-glyph{filter:blur(.5px)}";
   document.head.appendChild(style);
 
