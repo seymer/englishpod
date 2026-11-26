@@ -21,9 +21,9 @@ BREAK = '<div class="print-break"></div>\n    '
 HEADINGS = ("<h2>Key Vocabulary</h2>", "<h2>Supplementary Vocabulary</h2>")
 STYLE = (
     '<style id="%s">\n'
-    '@page{size:A4;margin:15mm}\n'
+    '@page{size:A4;margin:0}\n'
     '@media print{\n'
-    '  body{border:0;margin:0;padding:0;max-width:none;background:#fff}\n'
+    '  body{border:0;margin:0;padding:15mm;max-width:none;background:#fff}\n'
     '  .player,audio{display:none !important}\n'
     '  .print-break{break-before:page;page-break-before:always}\n'
     '  a{color:inherit;text-decoration:none}\n'
